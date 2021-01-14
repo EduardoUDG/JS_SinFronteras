@@ -78,6 +78,21 @@ arrVacio.push(miPrimeraVariable)
 console.log(arrVacio);
 */
 
+const suma = 2+2
+const resta = 10 - 5
+const multiplicacion = 10 * 1
+const division = 9 / 3
 
+/* console.log(suma, resta, multiplicacion, division); */
 
+const numero = 9 % 3
+
+let num = 5
+
+num += 5
+num -= 5
+num *= 5
+num /= 2
+
+console.log(num);
 
