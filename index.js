@@ -78,15 +78,17 @@ arrVacio.push(miPrimeraVariable)
 console.log(arrVacio);
 */
 
+
+/* 
 const suma = 2+2
 const resta = 10 - 5
 const multiplicacion = 10 * 1
 const division = 9 / 3
-
+ */
 /* console.log(suma, resta, multiplicacion, division); */
 
+/* 
 const numero = 9 % 3
-
 let num = 5
 
 num += 5
@@ -95,4 +97,19 @@ num *= 5
 num /= 2
 
 console.log(num);
+*/
+
+let numero1 = 5 == 6
+let numero2 = 5 == 5
+let numero3 = 5 == '5'
+let numero4 = 5 === '5'
+let numero5 = 5 < 3
+let numero6 = 3 <= 5
+let numero8 = 3 > 5
+let numero9 = 3 >= 5
+let numero10 = 5 != '5'
+let numero11 = 5 !== 6
+
+
+console.log(numero12);
 
