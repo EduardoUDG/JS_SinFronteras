@@ -121,6 +121,7 @@ while (num < 5) {
 }
 */
 
+/* 
 let opcion = 5
 
 switch (opcion) {
@@ -139,4 +140,23 @@ switch (opcion) {
     default: 
         console.log('Opcion fuera de rango');
         break;
+}
+*/
+
+let arreglo = []
+let tamArreglo = 0
+
+console.log('Llenando arreglo');
+for (let i=0; i < 10; i++) {
+    arreglo.push(i);
+    tamArreglo++
+}
+console.log('Arreglo lleno!!');
+
+
+
+
+console.log('Imprimiendo el arrego');
+for (let i=0; i < arreglo.length; i++ ) {
+    console.log(arreglo[i]);
 }
