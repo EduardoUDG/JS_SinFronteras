@@ -143,6 +143,7 @@ switch (opcion) {
 }
 */
 
+/* 
 let arreglo = []
 let tamArreglo = 0
 
@@ -160,3 +161,20 @@ console.log('Imprimiendo el arrego');
 for (let i=0; i < arreglo.length; i++ ) {
     console.log(arreglo[i]);
 }
+*/
+
+function iterar(arg1) {
+    
+    for (let i=0; i < arg1.length; i++) {
+        console.log(arg1[i]);
+    }
+}
+
+
+const numeros = [1, 2, 3, 4, 5]
+const nombres = ['Lalo', 'Luis', 'Diego', 'Karime', 'Tony']
+
+iterar(numeros);
+iterar(nombres);
+
+
