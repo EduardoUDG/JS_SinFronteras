@@ -163,6 +163,7 @@ for (let i=0; i < arreglo.length; i++ ) {
 }
 */
 
+/* 
 function iterar(arg1) {
     
     for (let i=0; i < arg1.length; i++) {
@@ -176,5 +177,19 @@ const nombres = ['Lalo', 'Luis', 'Diego', 'Karime', 'Tony']
 
 iterar(numeros);
 iterar(nombres);
+*/
+
+
+function suma (num1, num2) {
+
+    return num1 + num2;
+}
+
+let resultadoSuma1 = suma(10, 10);
+let resultadoSuma2 = suma(2, 2);
+let resultadoSuma3 = suma(resultadoSuma1, resultadoSuma2);
+
+console.log('El resultado de la funcion suma es: ', resultadoSuma3);
+
 
 
