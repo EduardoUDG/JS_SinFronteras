@@ -98,7 +98,7 @@ num /= 2
 
 console.log(num);
 */
-
+/* 
 let numero1 = 5 == 6
 let numero2 = 5 == 5
 let numero3 = 5 == '5'
@@ -112,4 +112,9 @@ let numero11 = 5 !== 6
 
 
 console.log(numero12);
+ */
 
+ const resultadOr = false || false || false|| true
+
+ const resultadAnd = false && false
+ console.log(resultadAnd);
