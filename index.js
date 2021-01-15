@@ -113,9 +113,30 @@ let numero11 = 5 !== 6
 
 console.log(numero12);
  */
-
+/* 
 let num= 0
 while (num < 5) {
     console.log(num);
     num++
+}
+*/
+
+let opcion = 5
+
+switch (opcion) {
+    case 1: 
+        console.log('Soy la opcion 1');
+        break;
+    case 2: 
+        console.log('Soy la opcion 2');
+        break;
+    case 3: 
+        console.log('Soy la opcion 3');
+        break;
+    case 4: 
+        console.log('Soy la opcion 4');
+        break;
+    default: 
+        console.log('Opcion fuera de rango');
+        break;
 }
