@@ -179,7 +179,7 @@ iterar(numeros);
 iterar(nombres);
 */
 
-
+/* 
 function suma (num1, num2) {
 
     return num1 + num2;
@@ -190,6 +190,15 @@ let resultadoSuma2 = suma(2, 2);
 let resultadoSuma3 = suma(resultadoSuma1, resultadoSuma2);
 
 console.log('El resultado de la funcion suma es: ', resultadoSuma3);
+*/
 
+function sumar (a, b, cb) {
+    let r = a + b
+    cb(r)
+}
 
+function callback (result) {
+    console.log('Resultado', result)
+}
 
+sumar(1, 1, callback)
