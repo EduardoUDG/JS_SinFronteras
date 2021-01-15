@@ -114,7 +114,8 @@ let numero11 = 5 !== 6
 console.log(numero12);
  */
 
- const resultadOr = false || false || false|| true
-
- const resultadAnd = false && false
- console.log(resultadAnd);
+let num= 0
+while (num < 5) {
+    console.log(num);
+    num++
+}
