@@ -192,13 +192,46 @@ let resultadoSuma3 = suma(resultadoSuma1, resultadoSuma2);
 console.log('El resultado de la funcion suma es: ', resultadoSuma3);
 */
 
-function sumar (a, b, cb) {
-    let r = a + b
-    cb(r)
-}
+// function sumar (a, b, cb) {
+//     let r = a + b
+//     cb(r)
+// }
 
-function callback (result) {
-    console.log('Resultado', result)
-}
+// function callback (result) {
+//     console.log('Resultado', result)
+// }
 
-sumar(1, 1, callback)
+// sumar(1, 1, callback)
+
+
+
+
+/* es una forma de hacer una funcion corta en una sola linea */
+const miFatArrowFunction = (a, b) => a + b;
+const r = miFatArrowFunction(2, 2);
+
+
+
+const otraFAF = (a, b) => {
+    return a + b;    
+}
+const s = otraFAF(5, 5)
+console.log(s);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
