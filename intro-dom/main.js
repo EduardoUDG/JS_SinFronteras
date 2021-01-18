@@ -1,1 +1,4 @@
-console.log('Intro a DOM desde main.js');
+window.onload = () => {
+    const parrafo = document.getElementById('text')
+    console.log(parrafo.innerHTML);
+}
