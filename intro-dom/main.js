@@ -13,12 +13,13 @@ window.onload = () => {
         const todosTemplate =  todos.map(t => '<li>' + t + '</li>');
         
 
-        
+
         todoList.innerHTML = todosTemplate.join('');
         const elementos = document.querySelectorAll('#todo-list li');
         elementos.forEach((elemento, i) => {
             elemento.addEventListener('click', () => {
-                console.log(elemento, i);
+                elemento.parentNode.removeChild(elemento);
+                todos.splice(i, 1);
             });
         });
     }
