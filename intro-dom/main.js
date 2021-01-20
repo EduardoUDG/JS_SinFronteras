@@ -12,7 +12,14 @@ window.onload = () => {
         const todoList = document.getElementById('todo-list');
         const todosTemplate =  todos.map(t => '<li>' + t + '</li>');
         
+
+        
         todoList.innerHTML = todosTemplate.join('');
-        document.querySelectorAll('#todo-list li');
+        const elementos = document.querySelectorAll('#todo-list li');
+        elementos.forEach((elemento, i) => {
+            elemento.addEventListener('click', () => {
+                console.log(elemento, i);
+            });
+        });
     }
 }
