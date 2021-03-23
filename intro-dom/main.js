@@ -1,8 +1,6 @@
-// Promise.resolve(2) 
-
-Promise.resolve(2)
-.then(valor => Promise.reject(1))
-.then(valor => valor + 2)
-.catch(e => console.error(e))
-
-
+new Promise( (resolve, reject) => {
+    setTimeout( () => resolve(2), 1000) 
+    // setTimeout( () => reject(2), 1000) // si mi promesa falla en un futuro usamos
+})
+.then( x => console.log(x))
+.catch( e => console.error(e))
